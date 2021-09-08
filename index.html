@@ -1,1 +1,317 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>nicofretti</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        @font-face {
+            font-family: 'Proxima-Bold';
+            src: url('fonts/Proxima-Bold.otf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Proxima-Regular';
+            src: url('fonts/Proxima-Regular.ttf') format('truetype');
+        }
+        body {
+            min-width: 800px;
+            color:white;
+            background-color: #1B1A1C;
+            font-family: 'Proxima-Regular';
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            min-width: 600px;
+            margin-left:200px;
+            margin-right: 200px;
+        }
+        div.titleContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        p.til{
+            font-size:100px;
+            font-family: 'Proxima-Bold';
+            text-align: center;
+            margin:0;
+        }
+        p.sub{
+            font-size:35px;
+            margin-top:0;
+        }
+        div.bodyContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        div.navContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:0;
+        }
+        a{
+            display: flex;
+            background-color: #302F33;
+            padding:10px;
+            border:none;
+            border-radius: 8px;
+            font-family: 'Proxima-Bold';
+            color:white;
+            font-size: 18px;
+            height: 55px;
+            align-items: center;
+            text-decoration: none;
+        }
+        div.pcContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        div.monitorCase{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            min-width: 870px;
+            min-height: 460px;
+            background-color: #dadee1;
+            
+        }
+        div.monitorDisplay{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 20px;
+            width: 830px;
+            height: 420px;
+            background-color: #1B1A1C;
+        }
+        div.keyboardCase{
+            display: flex;
+            justify-content: center;
+            background-color: #b6bdc4;
+            width: 1010px;
+            height: 40px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-bottom: 50px;
+        }
+        div.junctionPort{
+            background-color: #6e7780;
+            width: 200px;
+            height: 15px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        div.cardContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 350px;
+            height: 220px;
+            border-radius: 10px;
+            background-color: #302F33;
+            padding:10px
+        }
+        div.monitorColumn{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            margin:15px;
+        }
+        p.cardTitle{
+            font-size:44px;
+            color:white;
+            font-family: 'Proxima-Bold';
+            margin:0;
+        }
+        p.cardText{
+            font-size:22px;
+            color:white;
+        }
+
+        div.codeBlue{
+            min-height: 10px;
+            background-color:#2593F1;
+            border-radius: 100px;
+        }
+        div.codeWhite{
+            height: 10px;
+            background-color:white;
+            border-radius: 100px;
+        }
+        div.codePurple{
+            height: 10;
+            background-color:rgb(155, 82, 155);
+            border-radius: 100px;
+        }
+        div.codeRed{
+            height: 10px;
+            background-color:#F31F0A;
+            border-radius: 100px;
+        }
+        div.codeGreen{
+            height: 10px;
+            background-color:#91AB6D;
+            border-radius: 100px;
+        }
+        div.codeOrange{
+            height: 10px;
+            background-color:#F4A700;
+            border-radius: 100px;
+        }
+        div.codeBlack{
+            height: 10px;
+            background-color:#1B1A1C;
+            
+        }
+        div.codeRow{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-top:15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="titleContainer">
+        <p class="til">Hi, I'm Nicolò<br/></p>
+        <p class="sub" style="text-align: center;margin:0">Web developer & Programmer based in Verona (Italy🇮🇹)<br/></p>
+        <p class="sub">
+            I enjoy building interactives web app, still exploring other technologies and frameworks
+            that catch my curiosity;
+            currently a <span style="color:#79d8f7;font-family: Proxima-Bold;" >React</span> and <span style="color:#f7c93d;font-family: Proxima-Bold;">Python</span> lover <span style="color:red;font-family: Proxima-Bold;">&lt;3</span>
+        </p>
+         
+    </div>
+    <div class="pcContainer">
+        <div class="monitorCase">
+            <div class="monitorDisplay">
+                <div class="monitorColumn">
+                    
+                    <div>
+                        <div class="codeRow" style="margin:0">
+                            <div class="codeOrange" style="width: 105px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeWhite" style="width: 150px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeWhite" style="width: 130px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeRed" style="width: 170px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeRed" style="width: 100px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codePurple" style="width: 30px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeGreen" style="width: 105px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codeBlue" style="width: 105px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeOrange" style="width: 70px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codeWhite" style="width: 240px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codePurple" style="width: 74px;"></div>
+                        </div>
+                        <div class="codeRow" style="margin-bottom: 15px;">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codeGreen" style="width: 350px;"></div>
+                        </div>
+                    </div>
+                    <div class="cardContainer">
+                        <p class="cardTitle">&lt;<span style="color: #02DBF9;">designer</span>/&gt;</p>
+                        <p class="cardText">
+                            UI/UX Designer with a passion for designing beautiful and functional applications
+                        </p>
+                    </div>
+                </div>
+                <div class="monitorColumn">
+                    <div class="cardContainer">
+                        <p class="cardTitle">&lt;<span style="color:#125EE0">coder</span>/&gt;</p>
+                        <p class="cardText">
+                            Full-stack web developer with great passion for programming languages
+                        </p>
+                    </div>
+                    <!--Some code-->
+                    <div>
+                        <div class="codeRow">
+                            <div class="codeBlue" style="width: 30px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeOrange" style="width: 105px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codeRed" style="width: 105px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeGreen" style="width: 70px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codeBlue" style="width: 250px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codeWhite" style="width: 360px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeBlack" style="width: 30px;"></div>
+                            <div class="codePurple" style="width: 240px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeGreen" style="width: 50px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeOrange" style="width: 105px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeWhite" style="width: 150px;"></div>
+                        </div>
+                        <div class="codeRow">
+                            <div class="codeWhite" style="width: 130px;"></div>
+                            <div class="codeBlack" style="width: 15px;"></div>
+                            <div class="codeRed" style="width: 175px;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="keyboardCase">
+            <div class="junctionPort">
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="bodyContainer">
+        <div class="navContainer">
+            <a href="#">
+                <img style="margin-right: 7px;" src="img/Home.svg" />
+                Home
+            </a>
+            <a href="https://www.linkedin.com/in/nicol%C3%B2-f-01a164106/" style="margin-left: 35px;">
+                <img style="margin-right: 7px;" src="img/Linkedin.svg"/>
+                Linkedin
+            </a>
+            <a href="https://github.com/nicofretti" style="margin-left: 35px;">
+                <img style="margin-right: 7px;" src="img/Github.svg"/>
+                Github
+            </a>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
